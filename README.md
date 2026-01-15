@@ -7,21 +7,33 @@ The objective of this project is to design a modular autopilot capable of mainta
 
 Key Features
 1. Flight Dynamics & Modeling
+
     Mathematical modeling of rigid-body aircraft dynamics in three-dimensional space.
+   
     Development of longitudinal and lateral-directional equations of motion for the Cessna Skyhawk.
+   
     Linearization of nonlinear dynamics around trim conditions for control design.
 
 2. Control System Design
+   
     Design of longitudinal and lateral control loops for pitch, roll, yaw, and heading stabilization.
+   
     Altitude and airspeed control using classical control techniques.
+   
     Controller tuning to ensure stability, smooth response, and robustness.
 
 3. Simulation & Performance Analysis
+   
     MATLAB and Simulink-based simulation of aircraft dynamics and control behavior.
+   
     Performance evaluation using step response, root locus, and Bode plot analysis.
+   
     Validation of controller performance under different operating conditions.
 
 4. Realistic Flight Validation
+   
     Integration with FlightGear for real-time 3D flight visualization.
+   
     Validation of autopilot performance in realistic flight scenarios.
+   
     Observation of aircraft response to control commands in a simulated environment.
